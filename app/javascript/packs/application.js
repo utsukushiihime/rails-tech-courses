@@ -10,7 +10,9 @@ import "channels"
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap'
 require("stylesheets/application.scss")
-import "@fortawesome/fontawesome-free/js/all";
+import "@fortawesome/fontawesome-free/js/all"
+require("trix")
+require("@rails/actiontext")
 
 Rails.start()
 Turbolinks.start()
@@ -22,3 +24,6 @@ ActiveStorage.start()
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+require("trix")
+require("@rails/actiontext")
