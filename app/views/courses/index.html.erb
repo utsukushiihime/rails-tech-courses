@@ -2,7 +2,7 @@
 
 <h1>Courses</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Title</th>
@@ -16,9 +16,9 @@
       <tr>
         <td><%= course.title %></td>
         <td><%= course.description %></td>
-        <td><%= link_to 'Show', course %></td>
-        <td><%= link_to 'Edit', edit_course_path(course) %></td>
-        <td><%= link_to 'Destroy', course, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', course, class: "btn btn-primary btn-sm text-white" %></td>
+        <td><%= link_to 'Edit', edit_course_path(course), class: "btn btn-warning btn-sm text-white" %></td>
+        <td><%= link_to 'Destroy', course, method: :delete, class: "btn btn-danger btn-sm text-white", data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Course', new_course_path %>
+<%= link_to 'New Course', new_course_path, class: "btn btn-primary text-white" %>
