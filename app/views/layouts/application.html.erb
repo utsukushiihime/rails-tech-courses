@@ -13,11 +13,9 @@
 
   <body>
   <%= render 'layouts/header' %>
-  <%= render 'layouts/messages' %>
       <main role="main">
         <div class="container mt-5">
-          <p class="notice"><%= notice %></p>
-          <p class="alert"><%= alert %></p>
+        <%= render 'layouts/messages' %>
           <%= yield %>
         </div>
       </main>
