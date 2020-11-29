@@ -1,1 +1,9 @@
 $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+
+//Action text Override
+
+a:hover {
+  color: #19497d;
+  background-color: transparent;
+  text-decoration: none;
+}
