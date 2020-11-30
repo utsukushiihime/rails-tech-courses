@@ -33,3 +33,4 @@ end
 gem 'devise'
 gem 'faker'
 gem 'simple_form'
+gem 'friendly_id', '~> 5.4.0'
