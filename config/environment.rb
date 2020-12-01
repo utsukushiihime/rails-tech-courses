@@ -4,6 +4,7 @@ require_relative "application"
 # Initialize the Rails application.
 Rails.application.initialize!
 
+# Waiting for sendgrid to unban my account/ not sure why banned, new account
 ActionMailer::Base.smtp_settings = {
     address: "smtp.sendgrid.net",
     port: "587",
